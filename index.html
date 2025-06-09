@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="game-wrapper">
+        <div class="top-bar">
+            <h6 >Neon Tic Tac Toe</h6>
+            <div class="score">
+                <div class="score1">Player ✕: <span class="scores1">0</span> </div>
+                <div class="score2">Player ◯: <span class="scores2">0</span> </div>
+                Draw: <span class="draw">0</span>
+            </div>
+            <div class="timer">⏱ <span id="timer">00:00</span></div>
+        </div>
+
+        <div class="status">
+            <p>Current Turn: <span class="current-turn"></span></p>
+        </div>
+
+        <div class="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn reset">🔄 Reset</button>
+            <button class="btn toggle-mode">🤖 Play vs Robot</button>
+        </div>
+    </div>
+
+    <div id="overlay">
+        <div class="message-box">
+            <div class="content"></div>
+            <button id="close" class="btn">Close</button>
+        </div>
+    </div>
+
+    <script src="scriptt.js" defer></script>
+</body>
+
+</html>
