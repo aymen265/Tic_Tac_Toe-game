@@ -47,4 +47,4 @@ Projet réalisé par [Aymen lahlia].
 
 ---
 
-Amusez-vous bien avec Neon Tic Tac Toe ! ✕ ◯
+Amusez-vous bien avec  Tic Tac Toe game ! ✕ ◯
